@@ -1,0 +1,36 @@
+.menuHorizontal {
+  height: 5vh;
+  border: 0.2vh solid darkmagenta;
+
+  margin: 0.2% 0.2% 0.2% 0.2%;
+  background-color: beige;
+
+  padding-top: 0.9%;
+
+  box-shadow: 0.1% 0.1% #0e89af;
+  color: red;
+
+  text-align: center;
+}
+
+.navMenu ul {
+  list-style: none;
+  text-align: left;
+}
+
+.navMenu ul li {
+  display: inline;
+}
+
+.navMenu ul li a{
+  padding-left: 1vw;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.navMenu ul li a:hover{
+  color: red;
+  font-weight: bold;
+  font-size: 32;
+}
