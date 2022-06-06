@@ -4,9 +4,12 @@
 
   margin: 0.2% 0.2% 0.2% 0.2%;
   background-color: aqua;
-
+  border-radius: 4px;
   padding-top: 0.2%;
   padding-left: 0.2%;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;  /* centralização horizontal */
+  align-items: center;  /* centralização vertical */
 }
 

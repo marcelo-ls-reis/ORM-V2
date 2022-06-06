@@ -1,7 +1,7 @@
 .menuHorizontal {
   height: 5vh;
   border: 0.2vh solid darkmagenta;
-
+  border-radius: 4px;
   margin: 0.2% 0.2% 0.2% 0.2%;
   background-color: beige;
 
@@ -11,6 +11,9 @@
   color: red;
 
   text-align: center;
+  
+  display: flex;
+  align-items: center;
 }
 
 .navMenu ul {
@@ -27,10 +30,12 @@
   display: inline-block;
   color: black;
   text-decoration: none;
+  
 }
 
 .navMenu ul li a:hover{
   color: red;
   font-weight: bold;
   font-size: 32;
+  
 }

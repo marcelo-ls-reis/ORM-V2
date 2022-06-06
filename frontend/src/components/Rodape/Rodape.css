@@ -1,9 +1,9 @@
 .rodape {
   height: 5vh;
   border: 0.2vh solid darkmagenta;
-
+  border-radius: 4px;
   margin: 0.2% 0.2% 0.2% 0.2%;
-  background-color: black;
+  background-color: rgb(236, 202, 202);
 
   font-size: 12px;
 
@@ -14,6 +14,8 @@
 
   color: chocolate;
 
-  text-align: center;
+  display: flex;
+  justify-content: center;  /* centralização horizontal */
+  align-items: center;  /* centralização vertical */
 }
 

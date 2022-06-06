@@ -2,6 +2,7 @@ body {
   margin: 0,2vh;
   width: 100vw;
   height: 99vh;
+  
 }
 
 * {
@@ -126,3 +127,4 @@ tfoot > tr {
 .tabela tbody tr:nth-child(even){background-color: #e5eccdde;}
 
 .tabela tbody tr:hover {background-color: rgba(221, 221, 221, 0.849);}
+
